@@ -1,0 +1,13 @@
+// 4. Callback Function
+
+function myFunc(){
+    console.log("Vivek Kumar Gupta");
+}
+
+function myFunc2(a){
+    // console.log(a);
+    a();
+}
+myFunc2(myFunc);
+
+console.log(myFunc2(myFunc));
